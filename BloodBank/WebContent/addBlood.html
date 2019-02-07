@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<div>
+	<form action="AddDonarServlet" method="get">
+		<label>Mobile Number</label>
+		<input type="text" name="mNo"><p>
+		<label>Blood donar name</label>
+		<input type="text" name="bloodDonarName"><p>
+		<div>
+			<label>Blood group</label>
+			<select name="bloodGroup">
+				<option value="" selected disabled>Choose here</option>
+				<option value="opos">O+</option>
+				<option value="oneg">O-</option>
+				<option value="bpos">B+</option>
+				<option value="bneg">B-</option>
+				<option value="apos">A+</option>
+				<option value="aneg">A-</option>
+			</select>
+		</div>
+		<div style="margin:15px 0 0 0">
+			<label>Location</label>
+			<input type="text" name="location"><p>
+		</div>
+		<input type="submit" value="ADD"><p>
+	</form>
+	</div>
+	<a href="FindAll">Find all</a><p>
+	<a href="FindBloodGroup">Find Blood Group</a>
+</body>
+</html>
